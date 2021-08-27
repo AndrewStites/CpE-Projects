@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class FishingGameMain{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+
+		Die newDie = new Die();
+
+		int total = 0;
+
+		while (userAnswer = "yes"){
+			
+			newDie.getValue();
+
+			total += scoreFish(newDie.getValue());
+
+
+
+		System.out.print("Do you want to play again?");
+			String userAnswer = input.nextLine();
+		}
+
+		System.out.println("Your total amount of points is " + total);
+
+		//make a random number generator for random respones
+		//utilize a switch case to randomly grab strings
+
+		switch(newDie.roll()){
+		case 1: System.out.println("Wowza! That's pretty neat!"); break;
+		case 2: System.out.println("Well look at you getting all that pointage!"); break;
+		case 3: System.out.println("Holy Guacamole! That's a score."); break;
+		default: System.out.println("Welp, you did a thing."); break;
+
+		}
+
+	}
+
+public int scoreFish(int fishGiven){
+	int fishPoint;
+
+	if (fishGiven == 1){
+		fishPoint = 3;
+	}
+	else if(fishGiven == 2){
+		fishPoint = 2;
+	}
+	else if(fishGiven == 3){
+		fishPoint = 1;
+	}
+return fishPoint;
+
+}
+
+
+}

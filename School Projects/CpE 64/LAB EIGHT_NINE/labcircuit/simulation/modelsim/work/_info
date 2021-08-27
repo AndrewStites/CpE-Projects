@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim
+vhard_block
+Z1 !s110 1603569194
+!i10b 1
+!s100 :4?4^PiVW[n5a<:m0c47c3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzPfLAlzK58470D7oU<RV<3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1603567328
+Z5 8C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim/labcircuit.vo
+Z6 FC:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim/labcircuit.vo
+!i122 0
+L0 150 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1603569194.000000
+!s107 C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim/labcircuit.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim/labcircuit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vlabcircuit
+R1
+!i10b 1
+!s100 2QYFeAB7d2zob:`c9^i8A3
+R2
+I;8@A0CGZg5czK8@zklZoG1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 117
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/simulation/modelsim/labcircuit.vo|
+R9
+!i113 1
+R10
+R11

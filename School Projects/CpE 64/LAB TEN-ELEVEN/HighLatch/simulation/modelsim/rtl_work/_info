@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/simulation/modelsim
+vHighLatch
+!s110 1604546640
+!i10b 1
+!s100 AM3z_LMdnkLk4ellc1UJE1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDj3F6=NDYOegToM2z`^?f2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604544419
+8C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v
+FC:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v
+!i122 0
+L0 1 8
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1604546640.000000
+!s107 C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch|C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch}
+Z4 tCvgOpt 0
+n@high@latch
+vHighLatch_tb
+!s110 1604546665
+!i10b 1
+!s100 kPJ>eegYVkVdd0bcXG;n>0
+R1
+IEk?O^BZ?L`]BWiYijZV1h3
+R2
+R0
+w1604546595
+8C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v
+FC:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v
+!i122 1
+L0 1 20
+R3
+r1
+!s85 0
+31
+!s108 1604546664.000000
+!s107 C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v|
+!s90 -reportprogress|300|-work|work|C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v|
+!i113 1
+o-work work
+R4
+n@high@latch_tb

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch.v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/db/LowLatch.cbx.xml
+design_name = LowLatch
+instance = comp, \q~output , q~output, LowLatch, 1
+instance = comp, \NOTq~output , NOTq~output, LowLatch, 1
+instance = comp, \q__duplicate~output , q__duplicate~output, LowLatch, 1
+instance = comp, \NOTq__duplicate~output , NOTq__duplicate~output, LowLatch, 1
+instance = comp, \s~input , s~input, LowLatch, 1
+instance = comp, \r~input , r~input, LowLatch, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/labcircuit.v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/labcircuit_tb().v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB EIGHT_NINE/labcircuit/db/labcircuit.cbx.xml
+design_name = labcircuit
+instance = comp, \f~output , f~output, labcircuit, 1
+instance = comp, \c~input , c~input, labcircuit, 1
+instance = comp, \d~input , d~input, labcircuit, 1
+instance = comp, \b~input , b~input, labcircuit, 1
+instance = comp, \a~input , a~input, labcircuit, 1
+instance = comp, \u9a~0 , u9a~0, labcircuit, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

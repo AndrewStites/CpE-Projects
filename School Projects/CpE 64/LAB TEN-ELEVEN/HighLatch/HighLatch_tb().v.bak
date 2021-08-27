@@ -1,0 +1,20 @@
+module HighLatch_tb();
+
+	reg s, r; 
+
+	wire q, NOTq; 
+
+	HighLatch uut (.a(a), .b(b), .c(c), .d(d), .f(f));
+
+initial begin
+
+	{s, r, q, NOTq} = 0; #10 //0000 #10=>delay
+	{s, r, q, NOTq} = 1; #10
+	{s, r, q, NOTq} = 2; #10
+	{s, r, q, NOTq} = 3; #10
+
+$finish;
+
+	end
+	
+endmodule

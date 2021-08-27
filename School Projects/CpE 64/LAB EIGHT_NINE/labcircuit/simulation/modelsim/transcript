@@ -1,0 +1,43 @@
+# Compile of labcircuit.vo was successful.
+vsim rtl_work.labcircuit
+# vsim rtl_work.labcircuit 
+# Start time: 12:54:56 on Oct 24,2020
+# Loading rtl_work.labcircuit
+add wave -position end  sim:/labcircuit/a
+add wave -position end  sim:/labcircuit/b
+add wave -position end  sim:/labcircuit/c
+add wave -position end  sim:/labcircuit/d
+add wave -position end  sim:/labcircuit/and_u2a_wire
+add wave -position end  sim:/labcircuit/and_u6a_wire
+add wave -position end  sim:/labcircuit/and_u7a_wire
+add wave -position end  sim:/labcircuit/f
+run
+force -freeze sim:/labcircuit/a 1 0
+force -freeze sim:/labcircuit/b 1 0
+force -freeze sim:/labcircuit/c 1 0
+force -freeze sim:/labcircuit/d 1 0
+run
+force -freeze sim:/labcircuit/a 0 0
+force -freeze sim:/labcircuit/b 0 0
+force -freeze sim:/labcircuit/c 1 0
+force -freeze sim:/labcircuit/d 1 0
+run
+add wave -position end  sim:/labcircuit/a
+add wave -position end  sim:/labcircuit/b
+add wave -position end  sim:/labcircuit/a
+add wave -position end  sim:/labcircuit/b
+add wave -position end  sim:/labcircuit/c
+add wave -position end  sim:/labcircuit/d
+add wave -position end  sim:/labcircuit/and_u2a_wire
+add wave -position end  sim:/labcircuit/and_u6a_wire
+add wave -position end  sim:/labcircuit/and_u7a_wire
+add wave -position end  sim:/labcircuit/f
+force -freeze sim:/labcircuit/a St0 0
+force -freeze sim:/labcircuit/a 0 0
+force -freeze sim:/labcircuit/a 0 0
+force -freeze sim:/labcircuit/b 0 0
+run
+force -freeze sim:/labcircuit/c 0 0
+run
+# End time: 13:16:17 on Oct 24,2020, Elapsed time: 0:21:21
+# Errors: 0, Warnings: 5

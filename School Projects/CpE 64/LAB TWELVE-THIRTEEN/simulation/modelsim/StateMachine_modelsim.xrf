@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TWELVE-THIRTEEN/StateMachine.v
+source_file = 1, C:/Users/andre/Desktop/LAB REPORTS/LAB TWELVE-THIRTEEN/db/StateMachine.cbx.xml
+design_name = StateMachine
+instance = comp, \W~output , W~output, StateMachine, 1
+instance = comp, \Y~output , Y~output, StateMachine, 1
+instance = comp, \Q[0]~output , Q[0]~output, StateMachine, 1
+instance = comp, \Q[1]~output , Q[1]~output, StateMachine, 1
+instance = comp, \Q[2]~output , Q[2]~output, StateMachine, 1
+instance = comp, \clk~input , clk~input, StateMachine, 1
+instance = comp, \reset~input , reset~input, StateMachine, 1
+instance = comp, \X~input , X~input, StateMachine, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

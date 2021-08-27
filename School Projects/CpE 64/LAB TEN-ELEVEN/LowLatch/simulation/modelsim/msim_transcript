@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do LowLatch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/andre/Desktop/LAB\ REPORTS/LAB\ TEN-ELEVEN/LowLatch {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:43:46 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch" C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch.v 
+# -- Compiling module LowLatch
+# 
+# Top level modules:
+# 	LowLatch
+# End time: 19:43:46 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:07 on Nov 04,2020
+# vlog -reportprogress 300 -work work C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v 
+# -- Compiling module LowLatch_tb
+# 
+# Top level modules:
+# 	LowLatch_tb
+# End time: 19:44:07 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.LowLatch_tb
+# vsim work.LowLatch_tb 
+# Start time: 19:44:14 on Nov 04,2020
+# Loading work.LowLatch_tb
+# Loading work.LowLatch
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /LowLatch_tb/uut File: C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v Line: 7
+add wave -position end  sim:/LowLatch_tb/s
+add wave -position end  sim:/LowLatch_tb/r
+add wave -position end  sim:/LowLatch_tb/q
+add wave -position end  sim:/LowLatch_tb/NOTq
+run
+# ** Note: $finish    : C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v(16)
+#    Time: 40 ps  Iteration: 0  Instance: /LowLatch_tb
+# 1
+# Break in Module LowLatch_tb at C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/LowLatch_tb().v line 16
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/LowLatch/simulation/modelsim/wave.do}
+# End time: 19:47:39 on Nov 04,2020, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 1

@@ -1,0 +1,10 @@
+|labcircuit
+f << u9a.DB_MAX_OUTPUT_PORT_TYPE
+a => u2a.IN0
+b => u2a.IN1
+b => u7a.IN0
+c => u6a.IN0
+c => u7a.IN1
+d => u6a.IN1
+
+

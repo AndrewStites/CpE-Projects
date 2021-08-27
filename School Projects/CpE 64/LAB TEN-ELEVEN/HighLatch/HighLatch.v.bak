@@ -1,0 +1,9 @@
+module HighLatch(q, ~q, s, r, q, ~q)
+output q, ~q;
+input s, r, q, ~q;
+
+nor U2(q, ~q, s);
+nor U6(~q, q, r);
+
+end module
+

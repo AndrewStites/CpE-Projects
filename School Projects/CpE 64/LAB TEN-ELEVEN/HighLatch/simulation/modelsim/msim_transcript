@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do HighLatch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/andre/Desktop/LAB\ REPORTS/LAB\ TEN-ELEVEN/HighLatch {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:24:00 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch" C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch.v 
+# -- Compiling module HighLatch
+# 
+# Top level modules:
+# 	HighLatch
+# End time: 19:24:00 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:24:24 on Nov 04,2020
+# vlog -reportprogress 300 -work work C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v 
+# -- Compiling module HighLatch_tb
+# 
+# Top level modules:
+# 	HighLatch_tb
+# End time: 19:24:25 on Nov 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.HighLatch_tb
+# vsim work.HighLatch_tb 
+# Start time: 19:24:38 on Nov 04,2020
+# Loading work.HighLatch_tb
+# Loading work.HighLatch
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /HighLatch_tb/uut File: C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v Line: 7
+add wave -position end  sim:/HighLatch_tb/s
+add wave -position end  sim:/HighLatch_tb/r
+add wave -position end  sim:/HighLatch_tb/q
+add wave -position end  sim:/HighLatch_tb/NOTq
+run
+# ** Note: $finish    : C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v(16)
+#    Time: 40 ps  Iteration: 0  Instance: /HighLatch_tb
+# 1
+# Break in Module HighLatch_tb at C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/HighLatch_tb().v line 16
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/andre/Desktop/LAB REPORTS/LAB TEN-ELEVEN/HighLatch/simulation/modelsim/wave.do}
+# End time: 19:41:16 on Nov 04,2020, Elapsed time: 0:16:38
+# Errors: 0, Warnings: 1
